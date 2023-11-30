@@ -1,0 +1,49 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar{
+    background-color: #f5f5f5;
+    position: sticky;
+    
+}
+
+.nav-line{
+    display: none;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+ .nav-link:active{
+    background-color: #e6e8f0;
+    border-radius: 10px;
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+
+@media (max-width: 984px) {
+   
+    .nav-line{
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px; 
+    }
+
+    .nav-link{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+
+}
+

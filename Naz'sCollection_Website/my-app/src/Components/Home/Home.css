@@ -1,0 +1,62 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.background{
+    background-color: #f5f5f5;
+}
+.upper-1{
+    position: relative;
+    
+}
+.back-para-img{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.image-ky-upper-div{
+    width:25rem;  
+    text-align: center;
+}
+.middle-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+}
+.brand-div{
+    
+    margin: 10px;
+   
+}
+
+.brand-img{
+    width: 200px;
+    height: 200px ;
+    
+}
+
+.text-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+@media (max-width : 984px){
+    .middle-1{
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+
+
