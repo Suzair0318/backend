@@ -74,11 +74,11 @@ cloudinary.config({
   });
 
 // middleqware for deplyment 
-app.use(express.static(path.join( __dirname ,  `/Naz'sCollection_Website/my-app/build`)));
+// app.use(express.static(path.join( __dirname ,  `/Naz'sCollection_Website/my-app/build`)));
 
-app.get('*' , (req , res) => {
-   res.sendFile(path.join(  __dirname,  `/Naz'sCollection_Website/my-app/build/index.html`))
-})
+// app.get('*' , (req , res) => {
+//    res.sendFile(path.join(  __dirname,  `/Naz'sCollection_Website/my-app/build/index.html`))
+// })
 
 
 app.get('/' , (req , res ) => {
